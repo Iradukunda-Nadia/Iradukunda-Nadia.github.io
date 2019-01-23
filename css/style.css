@@ -860,7 +860,7 @@ figure {
 }
 
 #fh5co-testimonial {
-    background: #61935a;
+    background: #0099ff;
     position: relative;
 }
 
@@ -943,7 +943,7 @@ figure {
 }
 
 #fh5co-testimonial .owl-theme .owl-dots .owl-dot span {
-    background: #61935a !important;
+    background: #0099ff !important;
 }
 
 #fh5co-testimonial .owl-theme .owl-dots .active span {
@@ -2575,7 +2575,7 @@ h1, h2, h3, h4, h5, h6, [class^=heading-] {
     color: #18364a;
 }
 h3, .h3 {
-    font-size: 44px;
+    font-size:30px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: .5rem;
@@ -2743,5 +2743,816 @@ h3 {
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+
+
+element.style {
+}
+.context-dark:not(.section-single):not(.form-default) .form-validation, .bg-gray-dark:not(.section-single):not(.form-default) .form-validation, .bg-primary:not(.section-single):not(.form-default) .form-validation, .context-dark:not(.section-single):not(.form-default) .form-label, .bg-gray-dark:not(.section-single):not(.form-default) .form-label, .bg-primary:not(.section-single):not(.form-default) .form-label, .context-dark:not(.section-single):not(.form-default) .form-input, .bg-gray-dark:not(.section-single):not(.form-default) .form-input, .bg-primary:not(.section-single):not(.form-default) .form-input {
+    color: #fff;
+}
+.form-label {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: .075em;
+    pointer-events: none;
+    text-align: left;
+    z-index: 9;
+    transition: .25s;
+    will-change: transform;
+    transform: translateY(-50%);
+}
+.form-label, .form-label-outside {
+    margin-bottom: 0;
+    color: #777;
+    font-weight: 400;
+}
+label {
+    margin-bottom: 0;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+a, area, button, [role=button], input:not([type=range]), label, select, summary, textarea {
+    touch-action: manipulation;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+label {
+    cursor: default;
+}
+Style Attribute {
+    visibility: visible;
+    animation-name: slideInUp;
+}
+.rd-form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: -16px;
+    margin-left: 0;
+}
+.rd-form {
+    position: relative;
+    text-align: center;
+}
+.footer-modern.context-dark, .footer-modern.bg-gray-dark, .footer-modern.bg-primary {
+    color: rgba(255,255,255,.4);
+}
+.context-dark, .bg-gray-dark, .bg-primary, .context-dark h1, .bg-gray-dark h1, .bg-primary h1, .context-dark h2, .bg-gray-dark h2, .bg-primary h2, .context-dark h3, .bg-gray-dark h3, .bg-primary h3, .context-dark h4, .bg-gray-dark h4, .bg-primary h4, .context-dark h5, .bg-gray-dark h5, .bg-primary h5, .context-dark h6, .bg-gray-dark h6, .bg-primary h6, .context-dark [class^=heading-], .bg-gray-dark [class^=heading-], .bg-primary [class^=heading-] {
+    color: #fff;
+}
+
+{
+    visibility: visible;
+    animation-name: slideInRight;
+}
+.rd-form-inline .form-button.form-button-2 {
+    flex-grow: 0;
+}
+@media (min-width: 576px)
+.rd-form-inline .form-button {
+    flex-grow: 0;
+}
+.rd-form-inline .form-button {
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-height: 60px;
+}
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+}
+.rd-form-inline>* {
+    margin-top: 0;
+}
+.rd-form-inline>* {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.rd-form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: -16px;
+    margin-left: 0;
+}
+.rd-form {
+    position: relative;
+    text-align: center;
+}
+.footer-modern.context-dark, .footer-modern.bg-gray-dark, .footer-modern.bg-primary {
+    color: rgba(255,255,255,.4);
+}
+.context-dark, .bg-gray-dark, .bg-primary, .context-dark h1, .bg-gray-dark h1, .bg-primary h1, .context-dark h2, .bg-gray-dark h2, .bg-primary h2, .context-dark h3, .bg-gray-dark h3, .bg-primary h3, .context-dark h4, .bg-gray-dark h4, .bg-primary h4, .context-dark h5, .bg-gray-dark h5, .bg-primary h5, .context-dark h6, .bg-gray-dark h6, .bg-primary h6, .context-dark [class^=heading-], .bg-gray-dark [class^=heading-], .bg-primary [class^=heading-] {
+    color: #fff;
+}
+
+
+.d-none {
+    display: none!important;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.button-sm {
+    padding: 12px 30px;
+    font-size: 12px;
+    line-height: 2.17;
+    min-width: 160px;
+}
+.button-primary, .button-primary:focus {
+    color: #fff;
+    background-color: #db0f30;
+    border-color: #db0f30;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 17px 40px;
+    font-size: 14px;
+    line-height: 1.85;
+    min-width: 200px;
+    border: none;
+    font-family: roboto,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+    font-weight: 900;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: all .25s ease-in-out;
+}
+button, select {
+    text-transform: none;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+Style Attribute {
+    visibility: visible;
+    animation-name: slideInRight;
+}
+.rd-form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: -16px;
+    margin-left: 0;
+}
+.rd-form {
+    position: relative;
+    text-align: center;
+}
+.footer-modern.context-dark, .footer-modern.bg-gray-dark, .footer-modern.bg-primary {
+    color: rgba(255,255,255,.4);
+}
+.context-dark, .bg-gray-dark, .bg-primary, .context-dark h1, .bg-gray-dark h1, .bg-primary h1, .context-dark h2, .bg-gray-dark h2, .bg-primary h2, .context-dark h3, .bg-gray-dark h3, .bg-primary h3, .context-dark h4, .bg-gray-dark h4, .bg-primary h4, .context-dark h5, .bg-gray-dark h5, .bg-primary h5, .context-dark h6, .bg-gray-dark h6, .bg-primary h6, .context-dark [class^=heading-], .bg-gray-dark [class^=heading-], .bg-primary [class^=heading-] {
+    color: #fff;
+}
+
+.content-original, .content-dubbed {
+    transition: transform .3s,opacity .3s;
+    transition-timing-function: cubic-bezier(.2,1,.3,1);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.button-sm {
+    padding: 12px 30px;
+    font-size: 12px;
+    line-height: 2.17;
+    min-width: 160px;
+}
+.button-primary, .button-primary:focus {
+    color: #fff;
+    background-color: #db0f30;
+    border-color: #db0f30;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 17px 40px;
+    font-size: 14px;
+    line-height: 1.85;
+    min-width: 200px;
+    border: none;
+    font-family: roboto,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+    font-weight: 900;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: all .25s ease-in-out;
+}
+button, select {
+    text-transform: none;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+Style Attribute {
+    visibility: visible;
+    animation-name: slideInRight;
+}
+.rd-form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: -16px;
+    margin-left: 0;
+}
+.rd-form {
+    position: relative;
+    text-align: center;
+}
+.footer-modern.context-dark, .footer-modern.bg-gray-dark, .footer-modern.bg-primary {
+    color: rgba(255,255,255,.4);
+}
+.context-dark, .bg-gray-dark, .bg-primary, .context-dark h1, .bg-gray-dark h1, .bg-primary h1, .context-dark h2, .bg-gray-dark h2, .bg-primary h2, .context-dark h3, .bg-gray-dark h3, .bg-primary h3, .context-dark h4, .bg-gray-dark h4, .bg-primary h4, .context-dark h5, .bg-gray-dark h5, .bg-primary h5, .context-dark h6, .bg-gray-dark h6, .bg-primary h6, .context-dark [class^=heading-], .bg-gray-dark [class^=heading-], .bg-primary [class^=heading-] {
+    color: #fff;
+}
+
+@media (min-width: 576px)
+.rd-form-inline-sm .icon {
+    font-size: 38px;
+}
+.rd-form-inline-sm .icon {
+    font-size: 30px;
+}
+.icon {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+}
+.mdi {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.button-sm {
+    padding: 12px 30px;
+    font-size: 12px;
+    line-height: 2.17;
+    min-width: 160px;
+}
+.button-primary, .button-primary:focus {
+    color: #fff;
+    background-color: #db0f30;
+    border-color: #db0f30;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 17px 40px;
+    font-size: 14px;
+    line-height: 1.85;
+    min-width: 200px;
+    border: none;
+    font-family: roboto,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+    font-weight: 900;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: all .25s ease-in-out;
+}
+button, select {
+    text-transform: none;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+Style Attribute {
+    visibility: visible;
+    animation-name: slideInRight;
+}
+.rd-form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: -16px;
+    margin-left: 0;
+}
+.rd-form {
+    position: relative;
+    text-align: center;
+}
+
+
+.icon::before {
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    speak: none;
+    text-transform: none;
+}
+
+.mdi-telegram:before {
+    content: "\f5ef";
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.content-dubbed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translate3d(0,20%,0);
+    pointer-events: none;
+}
+.content-original, .content-dubbed {
+    transition: transform .3s,opacity .3s;
+    transition-timing-function: cubic-bezier(.2,1,.3,1);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.button-sm {
+    padding: 12px 30px;
+    font-size: 12px;
+    line-height: 2.17;
+    min-width: 160px;
+}
+.button-primary, .button-primary:focus {
+    color: #fff;
+    background-color: #db0f30;
+    border-color: #db0f30;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 17px 40px;
+    font-size: 14px;
+    line-height: 1.85;
+    min-width: 200px;
+    border: none;
+    font-family: roboto,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+    font-weight: 900;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: all .25s ease-in-out;
+}
+button, select {
+    text-transform: none;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+Style Attribute {
+    visibility: visible;
+    animation-name: slideInRight;
+}
+.rd-form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: -16px;
+    margin-left: 0;
+}
+.rd-form {
+    position: relative;
+    text-align: center;
+}
+.footer-modern.context-dark, .footer-modern.bg-gray-dark, .footer-modern.bg-primary {
+    color: rgba(255,255,255,.4);
+}
+.context-dark, .bg-gray-dark, .bg-primary, .context-dark h1, .bg-gray-dark h1, .bg-primary h1, .context-dark h2, .bg-gray-dark h2, .bg-primary h2, .context-dark h3, .bg-gray-dark h3, .bg-primary h3, .context-dark h4, .bg-gray-dark h4, .bg-primary h4, .context-dark h5, .bg-gray-dark h5, .bg-primary h5, .context-dark h6, .bg-gray-dark h6, .bg-primary h6, .context-dark [class^=heading-], .bg-gray-dark [class^=heading-], .bg-primary [class^=heading-] {
+    color: #fff;
+}
+
+
+.d-none {
+    display: none!important;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.content-dubbed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translate3d(0,20%,0);
+    pointer-events: none;
+}
+
+
+.d-none {
+    display: none!important;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.content-dubbed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translate3d(0,20%,0);
+    pointer-events: none;
+}
+.button-sm {
+    padding: 12px 30px;
+    font-size: 12px;
+    line-height: 2.17;
+    min-width: 160px;
+}
+.button-primary, .button-primary:focus {
+    color: #fff;
+    background-color: #db0f30;
+    border-color: #db0f30;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 17px 40px;
+    font-size: 14px;
+    line-height: 1.85;
+    min-width: 200px;
+    border: none;
+    font-family: roboto,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+    font-weight: 900;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: all .25s ease-in-out;
+}
+button, select {
+    text-transform: none;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+
+@media (min-width: 576px)
+.rd-form-inline-sm .icon {
+    font-size: 38px;
+}
+.rd-form-inline-sm .icon {
+    font-size: 30px;
+}
+.icon {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+}
+.mdi {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.content-dubbed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translate3d(0,20%,0);
+    pointer-events: none;
+}
+.content-original, .content-dubbed {
+    transition: transform .3s,opacity .3s;
+    transition-timing-function: cubic-bezier(.2,1,.3,1);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.content-original, .content-dubbed {
+    transition: transform .3s,opacity .3s;
+    transition-timing-function: cubic-bezier(.2,1,.3,1);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.button-sm {
+    padding: 12px 30px;
+    font-size: 12px;
+    line-height: 2.17;
+    min-width: 160px;
+}
+.button-primary, .button-primary:focus {
+    color: #fff;
+    background-color: #db0f30;
+    border-color: #db0f30;
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 17px 40px;
+    font-size: 14px;
+    line-height: 1.85;
+    min-width: 200px;
+    border: none;
+    font-family: roboto,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+    font-weight: 900;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: all .25s ease-in-out;
+}
+button, select {
+    text-transform: none;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+
+
 
 /*# sourceMappingURL=style.css.map */
