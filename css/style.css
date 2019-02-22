@@ -19,7 +19,15 @@ body {
     font-size: 15px;
     line-height: 1.7;
     color: #828282;
-    background: #ffffff;
+    background: #ffffff;}
+     @media screen and (max-width: 992px) {
+    body {
+      font-size: 16px; } }
+
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
 .shlbrand {
@@ -358,6 +366,7 @@ figure {
     min-height: 630px;
     height: 630px;
     background: #fff url(../images/loader.gif) no-repeat center center;
+    
 }
 
 #fh5co-hero .btn {
@@ -372,19 +381,22 @@ figure {
     border: none;
     z-index: 1;
     margin-bottom: 0;
+    
 }
 
 #fh5co-hero .flexslider .slides {
     position: relative;
     overflow: hidden;
+    
 }
 
 #fh5co-hero .flexslider .slides li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    min-height: 630px;
-    height: 630px;
+    min-height: 500px;
+    height: 500px;
+    
     position: relative;
 }
 
@@ -418,7 +430,27 @@ figure {
 }
 
 #fh5co-hero .flexslider .flex-direction-nav {
-    display: none;
+   display: block ;
+    opacity: 1 ;
+    top: 30% ;
+    width: 100%;
+    z-index: 999 ;
+}
+
+#fh5co-hero.flex-direction-nav a {
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    opacity: 0.2;
+    overflow: hidden;
+    padding-top: 8px;
+    position: absolute;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+    z-index: 10;
 }
 
 #fh5co-hero .flexslider .slider-text {
@@ -426,7 +458,7 @@ figure {
     opacity: 0;
     min-height: 630px;
     height: 630px;
-    z-index: 9;
+    z-index: 20;
 }
 
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
@@ -434,6 +466,13 @@ figure {
     vertical-align: middle;
     min-height: 700px;
 }
+@media screen and (max-width: 768px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
+              right: 0;
+              left: 0; } }
+        @media screen and (max-width: 768px) {
+          #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+            text-align: center; } }
 
 @keyframes right_to_left {
   from {
@@ -460,6 +499,8 @@ figure {
     color: white;
     width: 100%;
      animation: left_to_right 3s ease;
+
+
 }
 
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
@@ -467,13 +508,13 @@ figure {
     font-size: 40px;
     line-height: 1.3;
     font-weight: 300;
-    animation: left_to_right 3s ease;
+    animation: none !important;
 }
 
 @media screen and (max-width: 768px) {
     #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
         font-size: 30px;
-        animation: left_to_right 3s ease;
+        animation: none !important;
     }
 }
 
@@ -482,12 +523,12 @@ figure {
     line-height: 1.5;
     margin-bottom: 30px;
     font-family: "Source Sans Pro", Arial, sans-serif;
-    animation: left_to_right 3s ease;
+    animation: none !important;
 }
 
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
     color: rgba(255, 255, 255, 0.5);
-    animation: left_to_right 3s ease;
+    animation: none !important;
 }
 
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .btn {
@@ -1948,7 +1989,7 @@ figure {
 }
 
 .js .animate-box {
-    opacity: 0;
+    opacity: 1;
 }
 
 
@@ -3553,6 +3594,28 @@ input[type="button" i], input[type="submit" i], input[type="reset" i], input[typ
 }
 
 
+@media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+    
 
+  }
+}
+
+@media screen and (min-width : 0px) and (max-width : 767px){
+
+    .collapse.dont-collapse-sm {
+   width: auto !important;
+    
+
+  }
+
+}
+
+.owl-carousel.off {
+    display: block;
+}
 
 /*# sourceMappingURL=style.css.map */
