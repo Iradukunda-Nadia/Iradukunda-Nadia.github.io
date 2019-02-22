@@ -23,6 +23,9 @@
 		}
 	};
 
+
+	
+
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
@@ -190,8 +193,6 @@
 		});
 	
 	};
-	
-
 
 
 	// Loading page
@@ -294,5 +295,38 @@
 		testimonialCarousel();
 	});
 
+
+$(function() {
+    var owl = $('.owl-carousel'),
+        owlOptions = {
+            loop: false,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 2
+                }
+            }
+        };
+
+    if ( $(window).width() > 854 ) {
+        var owlActive = owl.owlCarousel(owlOptions);
+    } else {
+        owl.addClass('off');
+    }
+
+    $(window).resize(function() {
+        if ( $(window).width() > 854 ) {
+            if ( $('.owl-carousel').hasClass('off') ) {
+                var owlActive = owl.owlCarousel(owlOptions);
+                owl.removeClass('off');
+            }
+        } else {
+            if ( !$('.owl-carousel').hasClass('off') ) {
+                owl.addClass('off').trigger('destroy.owl.carousel');
+                owl.find('.owl-stage-outer').children(':eq(0)').unwrap();
+            }
+        }
+    });
+});
 
 }());
