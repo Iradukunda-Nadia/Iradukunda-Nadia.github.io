@@ -3895,7 +3895,7 @@ body {
 .wp-side-menu-item { background-color:#37E7DF; } .wo-icon { color: #ffffff; background-color:#37E7DF; font-size:24px !important;
   line-height: 50px !important; width:40px; } .wp-side-menu-item span { color:#ffffff; }  .wp-side-menu-item:hover {background:#37E7DF;} .wp-side-menu-item:hover .wo-icon {background:#37E7DF;} .wp-side-menu-item:hover:before {background-color:#80B719;}.wp-side-menu-item a{text-decoration:none;max-width:none;}
 
-  .wp-side-menu { font-family: 'Open Sans', sans-serif; position:fixed; top:50%; right:0; z-index: 10001; } .wp-side-menu-item { position:absolute; cursor:pointer; width:260px; right:-221px; line-height:0; -webkit-transition:400ms all linear; transition:400ms all linear; margin:1px;  } .wo-icon {display:inline-block; vertical-align:middle; text-align:center; background-repeat:no-repeat; background-position:50% 50%; -webkit-transition:400ms all linear; transition:400ms all linear; padding: 5px 0; }  .wp-side-menu-item span { font-weight:bold; font-size:14px; text-transform:uppercase; vertical-align:middle; padding-left:2px; padding: 5px 0; }  .wp-side-menu-item:hover {right:-1px;} .wp-side-menu-item:not(:last-child) {    margin-bottom:0;    text-decoration: none;}  
+  .wp-side-menu { font-family: 'Open Sans', sans-serif; position:fixed; top:65%; right:0; z-index: 10001; } .wp-side-menu-item { position:absolute; cursor:pointer; width:260px; right:-221px; line-height:0; -webkit-transition:400ms all linear; transition:400ms all linear; margin:1px;  } .wo-icon {display:inline-block; vertical-align:middle; text-align:center; background-repeat:no-repeat; background-position:50% 50%; -webkit-transition:400ms all linear; transition:400ms all linear; padding: 5px 0; }  .wp-side-menu-item span { font-weight:bold; font-size:14px; text-transform:uppercase; vertical-align:middle; padding-left:2px; padding: 5px 0; }  .wp-side-menu-item:hover {right:-1px;} .wp-side-menu-item:not(:last-child) {    margin-bottom:0;    text-decoration: none;}  
 
 
 .fab {
@@ -3998,4 +3998,12 @@ body {
 [tooltip]:hover:after {
   visibility: visible;
   opacity: 1;
+}
+
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
 }
